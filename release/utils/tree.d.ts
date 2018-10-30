@@ -1,4 +1,4 @@
-import { TableColumnProp } from '..';
+import { TableColumnProp } from '../types/table-column.type';
 export declare type OptionalValueGetter = (row: any) => any | undefined;
 export declare function optionalGetterForProp(prop: TableColumnProp): OptionalValueGetter;
 /**
